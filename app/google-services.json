@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515581712107",
+    "project_id": "ngoquyensignup",
+    "storage_bucket": "ngoquyensignup.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515581712107:android:c7eabf7970fc2db84a90ae",
+        "android_client_info": {
+          "package_name": "com.example.authenticationsignupnormal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeJcT58fILlY-RMHLKlaTVDgkpEGvPoYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

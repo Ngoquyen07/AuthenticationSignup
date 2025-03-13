@@ -1,0 +1,9 @@
+dependency inject là cung cấp đối tượng có sẵn vào trong 1 thứ gì đó mà không cần phải tạo lại đối tượng đó.
+cái thứ cần đối tượng này cũng sẽ không bị phụ thuộc vào đối tượng
+
+Cấu trúc khi sử dụng hilt .
+@HiltAndroidApp : Đánh dấu lớp khởi tạo hilt . ( ở đây là FirebaseAuthenticationApp đồng thời nhớ khai báo lại trên manifest)
+cái mà inject constructor ý : bên trong nó lên là 1 interface ; bởi nhiều class có thể implement cái interface đó
+và khi đó ; có thể truyền nhiều hơn 1 class cố định vào thứ có thể inject constructor đó
+@module : chỉ định thẳng cái thứ thực sự được inject vào trong constructor đó mà ko phải 1 thứ chung chung như interface
+nếu nó cụ thể rồi thì ko cần tới module ; nếu ko thì phải tạo module
