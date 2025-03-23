@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.google.gms.google.services)
     id("kotlin-kapt")
     kotlin("kapt")
-    id("com.google.dagger.hilt.android")////dddmmmm cuoc doiiiiiiiiii
+    id("com.google.dagger.hilt.android")
 
 }
 
