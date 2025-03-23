@@ -354,7 +354,7 @@ fun SignUpScreen(navController: NavController, viewModel: FbViewModel) {
                 )
             }
             if (viewModel.signedIn.value) {
-                navController.navigate(DestinationScreen.Success.router)
+                navController.navigate(DestinationScreen.Main.router)
             }
             viewModel.signedIn.value = false
 

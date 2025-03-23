@@ -59,6 +59,8 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.2")
     implementation("com.google.dagger:hilt-android:2.55")
     implementation(libs.protolite.well.known.types)
+    implementation(libs.firebase.firestore.ktx)
+    implementation(libs.firebase.firestore)
     kapt("com.google.dagger:hilt-android-compiler:2.55")
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
